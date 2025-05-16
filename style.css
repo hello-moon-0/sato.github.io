@@ -1,0 +1,47 @@
+
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #223344;
+}
+
+.container {
+    text-align: center;
+    padding-top: 20vh;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 10vh auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #001133;
+}
+
+.tagline {
+    font-size: 1.2em;
+    color: #334455;
+    margin-bottom: 30px;
+}
+
+.nav a {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    width: 200px;
+    background-color: #eef5ff;
+    color: #001133;
+    text-decoration: none;
+    border: 1px solid #aaccee;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+.nav a:hover {
+    background-color: #ddeeff;
+}
